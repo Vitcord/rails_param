@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = '>= 1.3.6'
 
-  s.files = Dir.glob("lib/**/*.rb") + Dir.glob("locales/*.yml") + %w(README.md)
+  s.files = Dir.glob("lib/**/*.rb") + Dir.glob("config/**/*") + %w(README.md)
 
   s.rdoc_options = ["--charset=UTF-8"]
-  s.require_paths = ["lib", "locales"]
+  s.require_paths = ["lib", "config"]
 
   s.add_development_dependency 'rspec', '~> 3.4'
   s.add_development_dependency 'rspec-rails', '~> 3.4'
