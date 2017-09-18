@@ -1,0 +1,18 @@
+en:
+  rails_param:
+    type:
+      invalid: "%{param} is not a valid %{type}"
+    empty:
+      required_missing: "El parámetro %{param_name} es obligatorio"
+      empty: "El parámeter %{param_name} no puede estar vacío"
+    format:
+      format_not_string: "El parámetro %{param_name} debe ser un texto"
+      format_not_matching: "El parámetro %{param_name} debe tener el formato %{value}"
+      format_not_values: "El parámetro %{param_name} debe ser %{value}"
+    value:
+      not_in_range: "El parámetro %{param_name} debe estar en el rango %{value}"
+      not_less_than: "El parámetro %{param_name} no puede ser menor que %{value}"
+      not_greater_than: "El parámetro %{param_name} no puede ser mayor que %{value}"
+    length:
+      too_short: "El parámetro %{param_name} no puede tener una logitud menor que %{value}"
+      too_big: "El parámetro %{param_name} no puede tener una logintud mayor que %{value}"
