@@ -1,3 +1,3 @@
 module RailsParam #:nodoc
-  VERSION = "0.10.0-vitcord"
+  VERSION = "0.11.0"
 end
